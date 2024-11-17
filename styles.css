@@ -1,0 +1,109 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo del header */
+header {
+    background: #c8102e; /* Color rojo Ferrari */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.team-logo {
+    width: 150px;
+    height: auto; 
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto;
+  }
+
+/* Estilo del contenido */
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los equipos y monoplazas */
+.team, .car, .track {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.team h2, .car h2, .track h2 {
+    margin-bottom: 10px;
+}
+
+.team img, .car img, .track img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilo de los pilotos */
+.drivers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.driver {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.driver img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #c8102e; /* Color rojo Ferrari */
+}
+
+a:hover {
+    text-decoration: underline;
+}
